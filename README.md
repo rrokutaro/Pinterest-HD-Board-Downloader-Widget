@@ -22,8 +22,11 @@ To use this application, follow these steps:
 
 1. Install the [Violentmonkey extension](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag) (or a similar extension like Tampermonkey, if you prefer).
 2. You'll find three files included here: [pinterest.js](https://github.com/rrokutaro/Pinterest-HD-Board-Downloader-Widget/blob/main/pinterest.js), [savepin-with-query.js](https://github.com/rrokutaro/Pinterest-HD-Board-Downloader-Widget/blob/main/savepin-with-query.js), and [savepin-no-query.js](https://github.com/rrokutaro/Pinterest-HD-Board-Downloader-Widget/blob/main/savepin-no-query.js). Create a new script in ViolentMonkey for each file, paste the respective file's contents, and save them.
-3. Open a Pinterest board or [nested board](https://za.pinterest.com/rrokutar/human-figure/wierd-forms/).
-4. Enable the downloader and enjoy!
+3. Sign in to your Pinterest account
+4. Open a Pinterest board or [nested board](https://za.pinterest.com/rrokutar/human-figure/wierd-forms/).
+5. Enable the downloader
+6. Provide yor username (e.g, https://www.pinterest.com/username/pin > Provide the username
+7. Enjoy!
 
 ## Please Note
 
