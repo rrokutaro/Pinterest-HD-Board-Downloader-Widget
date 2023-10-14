@@ -16,7 +16,6 @@ Pinterest HD Board Downloader allows you to download pins from boards in the hig
 - Download pins in the highest quality possible
 - Download pins from nested boards (e.g, Board: The Head > The Skull etc).
 - Pins with Images or videos are supported
-- No limits!
 <br><br>
 
 # How to use
