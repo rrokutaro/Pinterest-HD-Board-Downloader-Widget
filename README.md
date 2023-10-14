@@ -3,6 +3,7 @@ Pinterest HD Board Downloader allows you to download pins from boards in the hig
 <br>
 
 <img src="https://github.com/rrokutaro/Pinterest-HD-Board-Downloader-Widget/blob/main/sources/images/Banner.jpeg?raw=true" style="width: 100%; height: auto;">
+
 <img src="https://github.com/rrokutaro/Pinterest-HD-Board-Downloader-Widget/blob/main/sources/images/Banner-2.jpeg?raw=true" style="width: 100%; height: auto;">
 <small>Widget Interface</small>
 <br><br>
