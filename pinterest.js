@@ -23,7 +23,25 @@ function initComp() {
     DOM.boardWrapper = boardWrapper;
     DOM.toggleDownloaderBtn.__status = '';
 
-    style.innerHTML = `/* Global variables */
+    style.innerHTML = `
+  /* Fonts */
+@font-face {
+    font-family: "SF Pro Display Regular";
+    src: url(https://github.com/rrokutaro/Pinterest-HD-Board-Downloader-Widget/blob/main/sources/fonts/sf-pro-display/SF-Pro-Display-Regular.ttf);
+}
+
+@font-face {
+    font-family: "SF Pro Display Bold";
+    src: url(https://github.com/rrokutaro/Pinterest-HD-Board-Downloader-Widget/blob/main/sources/fonts/sf-pro-display/SF-Pro-Display-Bold.ttf);
+}
+
+@font-face {
+    font-family: "SF Pro Display Light";
+    src: url(https://github.com/rrokutaro/Pinterest-HD-Board-Downloader-Widget/blob/main/sources/fonts/sf-pro-display/SF-Pro-Display-Light.ttf);
+}
+
+
+/* Global variables */
 :root {
     /* Colors */
     --f-c-1: #000;
@@ -36,7 +54,6 @@ function initComp() {
     --f1: "SF Pro Display Regular";
     --f2: "SF Pro Display Bold";
     --f3: "SF Pro Display Light";
-    --f4: "SF Pro Display Thin";
 
     /* Font sizes */
     --8px: 0.586vw;
@@ -101,7 +118,7 @@ body {
 /* Styles apply to all downloader components (pin, board) */
 .downloader-component {
     display: none;
-    font-family: var(--f1);
+    font-family: var(--f1, sans-serif);
     color: var(--f-c-1);
     background-color: var(--bg-c-1);
 
@@ -283,7 +300,7 @@ body {
 
         <!-- The notice -->
         <p data-notice class="light">
-            <b>Note</b> — To manually select or deselect your pins, simply hover over the desired pin and press the <a>"CtrlKey"</a>.
+            <b>Note</b> — To manually select or deselect your pins, simply hover over the desired pin and press the <a>"CtrlKey (Cmd on Mac)".</a>
             To download all selected pins, click on "Currently Selected pins". To download all pins, click on "Available Pins".
             To select all visible pins, click on "Select all visible pins". Enjoy!
         </p>
@@ -364,6 +381,7 @@ console.log(DOM);
 
 
 DOM.toggleDownloaderBtn.addEventListener("click", iniDownloader);
+
 function iniDownloader() {
     if (DOM.toggleDownloaderBtn.__status.includes('active')) {
         disableDownloader();
