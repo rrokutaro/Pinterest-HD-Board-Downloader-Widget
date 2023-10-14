@@ -312,7 +312,7 @@ body {
                 <div data-currently-selected-wrap data-button-wrap>
                     <h1 data-selected-pins>0</h1>
                     <p class="light">
-                        Pins current<br>
+                        Pins currently<br>
                         selected
                     </p>
 
