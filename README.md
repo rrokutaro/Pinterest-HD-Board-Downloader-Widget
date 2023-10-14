@@ -1,5 +1,5 @@
 # Pinterst HD Board Downloader Widget — by ROKUTARO.
-Pinterest HD Board Downloader allows you to download pins from boards in the highest quality possible, you can select pins (one by one), or select all visible pins, you can download currently selected pins or download the an entire board (since the pins are downloaded in the highest quality possible, data usage for downloading large boards can be large). 
+Pinterest HD Board Downloader allows you to download pins from boards in the highest quality possible while on Pinterest! You can select pins (one by one), or select all visible pins, you can download currently selected pins or download the an entire board (since the pins are downloaded in the highest quality possible, data usage for downloading large boards can be large). 
 <br>
 
 <img src="" style="width: 100%; height: auto;">
